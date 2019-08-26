@@ -46,7 +46,7 @@ $(window).scroll(function(){
     }
 });
 
-
+$(function(){
 $( ".kendrajian-container" ).click(function(){
 
   $('.kendrajian-album').toggleClass("hi");
@@ -67,4 +67,5 @@ $( ".kennyjian" ).click(function(){
         scrollTop : 1750                    
     }, 500);
   $('.kendrajian-album').toggleClass("hi");
+});
 });
