@@ -189,12 +189,14 @@ button {
 
 .kendrajian-container{
   overflow:hidden;
+  width:20rem;
+  margin:0 auto;
 }
 .kendrajian-coverphoto{
   position:relative;
   height:auto;
-  width:20rem;
-  margin:0 auto 1rem;
+  width:auto;
+  
   z-index:10;
   transform:translateX(200%);
   transition:1s;
@@ -333,3 +335,18 @@ button {
   opacity:0;
 }
 
+/************          REFLOW          ************/
+
+.reflow{ 
+  position:relative;
+  background-color:none;
+}
+.reflow > img{
+  position:absolute;
+}
+.r-2x3{
+  padding-bottom:150%;
+}
+.r-3x2{
+  padding-bottom:66.667%;
+}
